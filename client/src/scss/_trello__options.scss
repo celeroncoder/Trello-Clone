@@ -1,0 +1,87 @@
+.trello__options header {
+    display: flex;
+    width: 100vw;
+    background: linear-gradient(223deg, rgba(255, 255, 255, 0.397)rgba(255, 255, 255, 0.212));
+    height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(2px);
+    padding: 1px;
+}
+
+.header__logo {
+    width: 6rem;
+    position: absolute;
+    left: 45rem;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:2px;
+    width: 27rem;
+
+    &Board {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px;
+        background: linear-gradient(214deg, #ffffff52, #ffffff59);
+        height: 2.5rem;
+        border-radius: 6px;
+        width: 6rem;
+    }
+
+    &__searchBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 5px;
+        height: 2.5rem;
+        margin-left: 10px;
+        border-radius: 6px;
+        background: linear-gradient( 214deg, #ffffff52, #ffffff59);
+
+        & input {
+            background: transparent;
+            outline-width: 0;
+            border: 0;
+            flex: 1;
+            height: 80%;
+            font-size: 1rem;
+        }
+
+    }
+
+    &  > * {
+        cursor: pointer;
+    }
+}
+
+.header__icon {
+    background: linear-gradient(214deg, #ffffff52, #ffffff59);
+    padding: 9px;
+    height: 2.5rem !important;
+    border-radius: 6px;
+    width: 2.5rem !important;
+    margin: 0 8px; 
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    justify-content: space-between;
+    width: 14rem;
+
+    &  > * {
+        cursor: pointer;
+    }
+
+    & div { /* THis is for the avatar */
+        height: 2.5rem;
+        border: 1px white solid;
+        width: 2.5rem;
+    }
+}

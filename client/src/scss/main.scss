@@ -1,0 +1,9 @@
+@import "config";
+@import "trello__options";
+@import "board__options";
+@import "board";
+
+body {
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+}

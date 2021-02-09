@@ -1,0 +1,246 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.trello__options header {
+  display: flex;
+  width: 100vw;
+  background: linear-gradient(223deg, rgba(255, 255, 255, 0.397) rgba(255, 255, 255, 0.212));
+  height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(2px);
+  padding: 1px;
+}
+
+.header__logo {
+  width: 6rem;
+  position: absolute;
+  left: 45rem;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  width: 27rem;
+}
+
+.header__leftBoard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  height: 2.5rem;
+  border-radius: 6px;
+  width: 6rem;
+}
+
+.header__left__searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  height: 2.5rem;
+  margin-left: 10px;
+  border-radius: 6px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+}
+
+.header__left__searchBar input {
+  background: transparent;
+  outline-width: 0;
+  border: 0;
+  flex: 1;
+  height: 80%;
+  font-size: 1rem;
+}
+
+.header__left > * {
+  cursor: pointer;
+}
+
+.header__icon {
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  padding: 9px;
+  height: 2.5rem !important;
+  border-radius: 6px;
+  width: 2.5rem !important;
+  margin: 0 8px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  justify-content: space-between;
+  width: 14rem;
+}
+
+.header__right > * {
+  cursor: pointer;
+}
+
+.header__right div {
+  /* THis is for the avatar */
+  height: 2.5rem;
+  border: 1px white solid;
+  width: 2.5rem;
+}
+
+.board__options {
+  display: flex;
+  width: 100vw;
+  background: linear-gradient(223deg, rgba(255, 255, 255, 0.397) rgba(255, 255, 255, 0.212));
+  height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(2px);
+  padding: 1px;
+}
+
+.board__options > * {
+  cursor: pointer;
+}
+
+.board__options .board__optionsLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  width: 38rem;
+}
+
+.board__options .board__optionsLeft .board__dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  height: 2.5rem;
+  border-radius: 6px;
+  width: 6.5rem;
+}
+
+.board__options .board__optionsLeft .board__name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  height: 2.5rem;
+  border-radius: 6px;
+  width: 6rem;
+}
+
+.board__options .board__optionsLeft .board__star {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  height: 2.5rem;
+  border-radius: 6px;
+}
+
+.board__options .board__optionsLeft .board__team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  height: 2.5rem;
+  border-radius: 6px;
+  width: 8.5rem;
+}
+
+.board__options .board__optionsLeft .board__team p {
+  padding: 5px;
+  background: linear-gradient(227deg, #ffffff9f, #b6b6b659);
+  border-radius: 15px;
+  height: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.board__options .board__optionsLeft .board__status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  border-radius: 6px;
+  width: 5.5rem;
+  height: 2.5rem;
+}
+
+.board__options .board__optionsLeft .board__users__invite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  border-radius: 6px;
+  height: 2.5rem;
+  width: 4rem;
+  font-size: 1.1rem !important;
+  font-weight: bold;
+}
+
+.board__options .board__optionsRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20rem;
+  padding: 5px;
+}
+
+.board__options .board__optionsRight .board__calender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  border-radius: 6px;
+  height: 2.5rem;
+  width: 6rem;
+}
+
+.board__options .board__optionsRight .board__butler {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  border-radius: 6px;
+  height: 2.5rem;
+  width: 5rem;
+}
+
+.board__options .board__optionsRight .board__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background: linear-gradient(214deg, #ffffff52, #ffffff59);
+  border-radius: 6px;
+  height: 2.5rem;
+  width: 7.5rem;
+}
+
+body {
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */
