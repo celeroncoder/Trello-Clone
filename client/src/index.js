@@ -4,6 +4,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Helmet from "react-helmet";
 
+// Added Helmet
+
 ReactDOM.render(
   <React.StrictMode>
     <Helmet>
