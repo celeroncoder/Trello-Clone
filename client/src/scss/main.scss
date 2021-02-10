@@ -2,8 +2,12 @@
 @import "trello__options";
 @import "board__options";
 @import "board";
+@import "board_section";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
     background-image: url("../assets/background.jpg");
     background-size: cover;
+    font-family: "Roboto", sans-serif;
 }

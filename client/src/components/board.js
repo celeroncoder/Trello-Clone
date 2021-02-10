@@ -1,18 +1,10 @@
 import React from 'react'
-import Card from "./board__cards";
+import Section from "./board__section";
 
 function board() {
     return (
         <div className="board">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <Section />
         </div>
     )
 }

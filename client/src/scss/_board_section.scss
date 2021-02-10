@@ -1,0 +1,48 @@
+.board__section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: whitesmoke;
+    width: 20rem;
+    margin: 1rem 1rem;
+
+    & .board__sectionHeader {
+        flex: 0.1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        padding: 2px;
+
+        & p {
+            font-weight: bold;
+        }
+    }
+
+    & .board__sectionCards {
+        flex: 0.8;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 90%;
+        min-height: 3rem;
+    }
+
+    & .board__sectionFooter {
+        flex: 0.1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & button {
+            border: none;
+        }
+
+        & p::before {
+            content: "\E966"
+        }
+
+    }
+
+}

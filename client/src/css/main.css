@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -25,7 +26,7 @@ html {
 .header__logo {
   width: 6rem;
   position: absolute;
-  left: 45rem;
+  left: 50vw;
 }
 
 .header__left {
@@ -119,7 +120,7 @@ html {
   align-items: center;
   justify-content: space-between;
   padding: 2px;
-  width: 38rem;
+  width: 40rem;
 }
 
 .board__options .board__optionsLeft .board__dropdown {
@@ -136,12 +137,12 @@ html {
 .board__options .board__optionsLeft .board__name {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 5px;
   background: linear-gradient(214deg, #ffffff52, #ffffff59);
   height: 2.5rem;
   border-radius: 6px;
-  width: 6rem;
+  width: 7rem;
 }
 
 .board__options .board__optionsLeft .board__star {
@@ -162,7 +163,7 @@ html {
   background: linear-gradient(214deg, #ffffff52, #ffffff59);
   height: 2.5rem;
   border-radius: 6px;
-  width: 8.5rem;
+  width: 9rem;
 }
 
 .board__options .board__optionsLeft .board__team p {
@@ -172,6 +173,7 @@ html {
   height: 1.1rem;
   display: flex;
   align-items: center;
+  font-size: 15px;
 }
 
 .board__options .board__optionsLeft .board__status {
@@ -239,8 +241,56 @@ html {
   width: 7.5rem;
 }
 
+.board__section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: whitesmoke;
+  width: 20rem;
+  margin: 1rem 1rem;
+}
+
+.board__section .board__sectionHeader {
+  flex: 0.1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 2px;
+}
+
+.board__section .board__sectionHeader p {
+  font-weight: bold;
+}
+
+.board__section .board__sectionCards {
+  flex: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 90%;
+  min-height: 3rem;
+}
+
+.board__section .board__sectionFooter {
+  flex: 0.1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.board__section .board__sectionFooter button {
+  border: none;
+}
+
+.board__section .board__sectionFooter p::before {
+  content: "\E966";
+}
+
 body {
   background-image: url("../assets/background.jpg");
   background-size: cover;
+  font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */

@@ -17,7 +17,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 2px;
-        width: 38rem;
+        width: 40rem;
         
         & .board__dropdown {
             display: flex;
@@ -33,12 +33,12 @@
         & .board__name {
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             padding: 5px;
             background: linear-gradient(214deg, #ffffff52, #ffffff59);
             height: 2.5rem;
             border-radius: 6px;
-            width: 6rem;
+            width: 7rem;
         }
 
         & .board__star {
@@ -59,7 +59,7 @@
             background: linear-gradient(214deg, #ffffff52, #ffffff59);
             height: 2.5rem;
             border-radius: 6px;
-            width: 8.5rem;
+            width: 9rem;
             
             & p {
                 padding: 5px;
@@ -68,6 +68,7 @@
                 height: 1.1rem;
                 display: flex;
                 align-items: center;
+                font-size: 15px;
             }
 
         }
