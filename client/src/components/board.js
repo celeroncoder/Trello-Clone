@@ -5,6 +5,15 @@ function board() {
     return (
         <div className="board">
             <Section />
+            <Section />
+            <Section />
+            <Section />
+            <Section />
+            <Section />
+            <Section />
+            <Section />
+            <Section />
+            <Section />
         </div>
     )
 }
